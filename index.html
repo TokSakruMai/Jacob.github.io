@@ -1,25 +1,22 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <link href ="styles/style.css" rel="stylesheet" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
-  </head>
-  <body>
-    <h1>Fortress<h1>
-    <img src="images/Fortress.jpg" alt="Fortress" />
-    <p>
-      <a href="https://baike.baidu.com/item/%E7%A6%8F%E5%BD%BB%E6%96%AF/22063198">
-      Fortress</a> is the guardian of the Haihe Well, and he howls 
-      and appears in the jungle, freaking everyone out. 
-      He can</p>
-      <ul> 
-        <li>track prey</li>
-        <li>launch a siege with teammates</li>
-        <li>flank targets</li>
-        <li>engage in challenging multi-line combat</li>
-      </ul>
-      <script src="scripts/main.js" defer></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Page Application</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="navbar">
+    <button onclick="loadContent('index.html')">Home</button>
+    <button onclick="loadContent('about.html')">About</button>
+    <button onclick="loadContent('contact.html')">Contact</button>
+  </div>
+  <div class="content" id="content">
+    <!-- 默认加载的内容 -->
+    <h1>Welcome to Home Page</h1>
+    <p>This is the home page content.</p>
+  </div>
+    <script src="scripts/main.js" defer></script>
+</body>
 </html>
