@@ -11,6 +11,9 @@ html {
     background-attachment: fixed; /* 可选：背景图片固定在视窗上 */
 }
  
+h1{
+    margin: 60px auto;
+}
 
 img {
     width: 100%;
@@ -47,9 +50,3 @@ img {
     background-color: rgba(0, 0, 0, 0.3);
   }
   
-.content {
-    padding-top: 60px; /* 确保内容不被导航栏遮挡 */
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.3);
-    height: 200%; /* 为了滚动效果，设置较大的高度 */
-  }
