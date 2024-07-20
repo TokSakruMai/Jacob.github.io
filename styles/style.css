@@ -11,8 +11,17 @@ html {
     background-attachment: fixed; /* 可选：背景图片固定在视窗上 */
 }
  
-h1{
-    margin: 60px auto;
+h1 {
+    color: #fff; /* 标题的颜色 */
+    position: absolute;
+    
+}
+body {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: 100vh; /* 视口高度 */
+    margin: 0;
 }
 
 img {
